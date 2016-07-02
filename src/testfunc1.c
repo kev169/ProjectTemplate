@@ -7,5 +7,9 @@
 * @return This info about the return value
 */
 void test(void){
-    printf(_OBF("This is a test function\n"));
+    printf("This is a test function\n");
+}
+
+int func_1(void){
+    return 0;
 }
